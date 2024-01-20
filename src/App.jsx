@@ -6,7 +6,7 @@ function App() {
     <div className="mainBody">
       <div className="topHeader">
         <h1 className="header">MARVELO</h1>
-        <input placeholder="Search a Marvel Character" className="topInput" />
+        <input placeholder="Search an Entrepreneur" className="topInput" />
       </div>
       <div className="cardBody">
         {characters.map((data, index) => (
@@ -15,20 +15,20 @@ function App() {
               <img className="avatarImage" src={data.img1} alt={data.alias} />
               <h2>{data.alias}</h2>
               <p className="description">
-                {data?.abilities[0]}
+                {data?.ventures[0]}
                 <br />
-                {data?.abilities[1]}
+                {data?.ventures[1]}
                 <br />
-                {data?.abilities[2]}
+                {data?.ventures[2]}
               </p>
               <div className="avatarInfo">
                 <div className="price">
                   <ins>◘</ins>
-                  <p>{data.team}</p>
+                  <p>{data.industry}</p>
                 </div>
                 <div className="duration">
                   <ins>◷</ins>
-                  <p>Home: {data.homeworld}</p>
+                  <p>Home: {data.country}</p>
                 </div>
               </div>
               <hr />
