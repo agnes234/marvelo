@@ -1,96 +1,100 @@
 export const characters = [
   // Iron Man
   {
-    name: "Tony Stark",
-    alias: "Iron Man",
-    img1: "https://www.specfictionshop.com/cdn/shop/products/315455127_2253071438203857_6311282012262232749_n_2000x.jpg?v=1669836598",
-    homeworld: "Earth",
-    abilities: [
-      "Genius-level intellect",
-      "Powered armor suit",
-      "Superhuman strength",
+    name: "Elon Musk",
+    alias: "Elon Musk",
+    img1: "https://i.pinimg.com/236x/fe/96/ac/fe96ac7a018650bfee35aaade3eba067.jpg",
+    country: "South Africa",
+    ventures: [
+      "X.com",
+      "Tesla",
+      "SolarCity",
+      "SpaceX",
+      "Starlink",
+      "Hyperloop",
+      "OpenAI",
+      "Neuralink",
     ],
-    team: "Avengers",
+    industry: "Various",
     description:
-      "Tony Stark, also known as Iron Man, is a brilliant inventor, philanthropist, and industrialist. He uses his genius-level intellect and a highly advanced powered armor suit to fight for justice and protect the world from various threats. Stark is a charismatic playboy turned superhero who combines his technological prowess with unwavering determination to uphold the values of heroism and innovation.",
+      "Elon Musk is a visionary entrepreneur known for co-founding X.com (which later became PayPal) and founding numerous groundbreaking companies such as Tesla (electric cars and batteries), SpaceX (rockets and spacecraft), SolarCity (solar energy), Starlink (satellite internet), Hyperloop (high-speed transportation), OpenAI (artificial intelligence), and Neuralink (neurotechnology). His ventures have transformed industries and pushed the boundaries of innovation.",
   },
   {
-    name: "Pepper Potts",
-    alias: "Rescue",
-    abilities: ["Powered armor suit", "Advanced technology skills"],
-    team: "Avengers",
-    img1: "https://i.pinimg.com/originals/5e/fe/55/5efe55d2a7785a311511736a1a37bcbb.jpg",
-    homeworld: "Earth",
+    name: "Mark Zuckerberg",
+    alias: "Mark Zuckerberg",
+    ventures: ["Facebook", "Instagram", "WhatsApp", "Oculus VR"],
+    industry: "Social Media & Technology",
+    img1: "https://i.pinimg.com/236x/ca/f2/ba/caf2baf5c8b9bc82513ce5deec94fa2f.jpg",
+    country: "United States",
     description:
-      "Pepper Potts, the formidable Rescue, is an accomplished businesswoman and technological genius. She dons a powered armor suit equipped with an array of advanced technology and weaponry, allowing her to stand alongside the Avengers in the battle against supervillains and global threats. Pepper is a determined and fearless heroine with an unwavering commitment to justice.",
+      "Mark Zuckerberg is a tech entrepreneur recognized for co-founding Facebook, the world's largest social media platform. He expanded his influence by acquiring Instagram, WhatsApp, and Oculus VR, establishing himself as a key figure in the evolution of communication and virtual reality technologies.",
   },
   {
-    name: "James 'Rhodey' Rhodes",
-    alias: "War Machine",
-    abilities: ["Powered armor suit", "Military expertise"],
-    team: "Avengers",
-    img1: "https://i.pinimg.com/474x/ec/3f/4f/ec3f4f8053892365046fc6cd2f7955eb.jpg",
-    homeworld: "Earth",
-
+    name: "Oprah Winfrey",
+    alias: "Media Mogul",
+    ventures: ["Harpo Productions", "OWN Network"],
+    expertise: ["Media", "Entertainment", "Philanthropy"],
+    img1: "https://i.pinimg.com/236x/d2/e3/81/d2e381da0ecd4aef04bad29a58135d5e.jpg",
+    country: "United States",
     description:
-      "James 'Rhodey' Rhodes, also known as War Machine, is a highly skilled pilot and a military expert. He operates a heavily armed powered armor suit that enhances his strength and combat capabilities. With a strong sense of duty and loyalty to his allies, Rhodey plays a crucial role in the Avengers' efforts to maintain peace and protect the world.",
+      "Oprah Winfrey is a media mogul and entrepreneur known for her influential role in television. She is the founder of Harpo Productions and the OWN Network. Oprah's impact extends beyond media, as she is also a notable philanthropist and advocate for various social causes.",
   },
   {
-    name: "Riri Williams",
-    alias: "Ironheart",
-    abilities: ["Powered armor suit", "Genius-level intellect"],
-    team: "Young Avengers",
-    img1: "https://i.pinimg.com/736x/e3/02/9b/e3029b056f1deaf2011d72d0bce0bafa.jpg",
-    homeworld: "Earth",
-
+    name: "Indra Nooyi",
+    alias: "The Corporate Trailblazer",
+    img1: "https://i.pinimg.com/236x/6b/71/f2/6b71f24f99486a1c88faf71dd302bc02.jpg",
+    country: "India",
+    ventures: ["PepsiCo"],
+    expertise: ["Business Leadership", "Corporate Strategy"],
     description:
-      "Riri Williams, known as Ironheart, is a prodigious young inventor with a genius-level intellect. She has designed her own advanced powered armor suit, which she uses to fight against threats as a member of the Young Avengers. Riri's intelligence, determination, and innovative spirit make her a rising star in the superhero community.",
-  },
-
-  // Spider-Man
-  {
-    name: "Miles Morales",
-    alias: "Spider-Man",
-    abilities: ["Bio-electrokinesis", "Wall-crawling"],
-    team: "Champions",
-    img1: "https://w0.peakpx.com/wallpaper/15/497/HD-wallpaper-marvel-spider-man-marvel-spider-man-game-games.jpg",
-    homeworld: "Earth",
-    img3: "url_to_img3_for_Natasha_Stark",
-    description:
-      "Miles Morales, the teenage Spider-Man, has bio-electrokinesis powers, in addition to wall-crawling abilities. As a member of the Champions, Miles embodies the spirit of the Spider-Man legacy, fighting for equality and justice in the Marvel Universe while navigating the challenges of being a young hero.",
+      "Indra Nooyi is an Indian-American business executive and the former CEO of PepsiCo. Recognized for her exceptional leadership, Nooyi played a crucial role in shaping PepsiCo's success. Her strategic insights and commitment to sustainability have made her a trailblazer in the corporate world.",
   },
 
   {
-    name: "Cindy Moon",
-    alias: "Silk",
-    abilities: ["Web-shooting", "Superhuman agility"],
-    team: "Agents of Atlas",
-    img1: "https://media-cldnry.s-nbcnews.com/image/upload/newscms/2015_53/894026/silk_1_cover.jpg",
-    homeworld: "Earth",
+    name: "Jeff Bezos",
+    alias: "The E-Commerce Pioneer",
+    img1: "https://i.pinimg.com/236x/97/8b/9b/978b9bc93ef330bcf0648ace2a890eff.jpg",
+    country: "United States",
+    ventures: ["Amazon", "Blue Origin"],
+    expertise: ["E-Commerce", "Space Exploration"],
     description:
-      "Cindy Moon, codenamed Silk, is a skilled hero with the power of web-shooting and remarkable superhuman agility. She is an essential member of the Agents of Atlas, using her arachnid-like abilities to combat threats and safeguard the world.",
+      "Jeff Bezos is an entrepreneur and the founder of Amazon, the world's largest e-commerce platform. Under his leadership, Amazon expanded into various industries and became a global tech giant. Bezos is also passionate about space exploration and founded Blue Origin, a private aerospace manufacturer and spaceflight services company.",
   },
 
   {
-    name: "Steve Rogers",
-    alias: "Captain America",
-    abilities: ["Peak human strength", "Vibranium shield"],
-    team: "Avengers",
-    img1: "https://w0.peakpx.com/wallpaper/223/397/HD-wallpaper-captain-america-avengers-endgame-captain-america-marvel-marvel-comics-marvel-superheroes-superheroes.jpg",
-    homeworld: "Earth",
+    name: "Sara Blakely",
+    alias: "The Shapewear Innovator",
+    img1: "https://i.pinimg.com/236x/0d/eb/81/0deb8130da752b5e4b910d4b27e89efd.jpg",
+    country: "United States",
+    ventures: ["Spanx"],
+    expertise: ["Fashion", "Innovation"],
     description:
-      "Steve Rogers, Captain America, is the embodiment of honor and virtue. Enhanced with peak human strength and wielding a Vibranium shield, he stands as a symbol of justice and resilience. Steve's unwavering commitment to the ideals of heroism makes him a cornerstone of the Avengers and the Marvel Universe.",
+      "Sara Blakely is an entrepreneur and the founder of Spanx, a company known for revolutionizing the shapewear industry. As a self-made billionaire, Blakely's innovative and entrepreneurial spirit has made her a trailblazer in the world of fashion and business.",
   },
   {
-    name: "Sam Wilson",
-    alias: "Falcon",
-    abilities: ["Wingsuit", "Telepathic link with birds"],
-    team: "Avengers",
-    img1: "https://i.pinimg.com/736x/0e/be/ed/0ebeed0c9d6578732a07ca98fee71e22.jpg",
-    homeworld: "Earth",
+    name: "Jack Ma",
+    alias: "The E-Commerce Visionary",
+    img1: "https://i.pinimg.com/236x/06/17/52/061752ae24f0bb79d18d5e300ff317d7.jpg",
+    country: "China",
+    ventures: ["Alibaba Group"],
+    expertise: ["E-Commerce", "Technology"],
     description:
-      "Sam Wilson, the Falcon, soars through the skies with his high-tech wingsuit and possesses a unique telepathic link with birds. As an Avenger, Sam exemplifies freedom, hope, and unity, fighting alongside his fellow heroes to maintain peace and protect the world from impending threats.",
+      "Jack Ma is a Chinese entrepreneur and the founder of Alibaba Group, a leading global e-commerce and technology conglomerate. With a vision to empower small businesses, Ma transformed the landscape of online commerce in China and beyond, becoming a prominent figure in the tech industry.",
   },
+  {
+    name: "Richard Branson",
+    alias: "The Virgin Group Founder",
+    img1: "https://i.pinimg.com/236x/dd/65/32/dd6532cdb2055892e5a6865303f456fc.jpg",
+    country: "United Kingdom",
+    ventures: ["Virgin Group"],
+    expertise: ["Entrepreneurship", "Aviation", "Entertainment"],
+    description:
+      "Sir Richard Branson is a British entrepreneur and the founder of the Virgin Group, a multinational conglomerate with ventures in various industries, including aviation, music, and telecommunications. Known for his adventurous spirit, Branson has played a key role in shaping the business landscape and promoting innovation.",
+  },
+];
+
+console.log(characters);
+
 ];
 
 console.log(characters);
